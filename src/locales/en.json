@@ -1,0 +1,433 @@
+{
+  "header": {
+    "app-name": "Software Update"
+  },
+  "breadcrumbs": {
+    "home": "Software Update"
+  },
+  "components": {
+    "download-release-button": {
+      "button-text": "Download",
+      "messages": {
+        "download-started": "Firmware download started.",
+        "download-complete": "Firmware download successful.",
+        "download-error": "Unable to download firmware, {fileName}."
+      }
+    },
+    "view-release": {
+      "release-header": {
+        "released": "Released"
+      },
+      "headers": {
+        "description": "Description",
+        "details": "Details",
+        "version": "Version",
+        "release-date": "Release date",
+        "last-updated": "Last updated",
+        "files": "Files",
+        "file-size": "File size",
+        "whats-new": "What's new?",
+        "regional-distribution": "Regional distribution"
+      },
+      "errors": {
+        "download-file-error": "Unable to download file, {fileName}."
+      }
+    }
+  },
+  "errors": {
+    "heading": "Sorry",
+    "error-code": "Error code: {{errorCode}}",
+    "helpful-links": "Here are some helpful links:",
+    "links": {
+      "home": "Home"
+    },
+    "messages": {
+      "not-found": "We can't see, to find the page you are looking for.",
+      "not-authorized": "You are not authorised to access this page.",
+      "cant-connect": "Unable to retrieve data. Please check your internet connection."
+    }
+  },
+  "pages": {
+    "landing": {
+      "heading": "Software Update",
+      "title": "Application title or message",
+      "description": "Subtitle text or message describing the purpose of the application",
+      "new-release-available": {
+        "header": "New firmware release is available",
+        "version": "ver {{version}}",
+        "body": "A new firmware release <0 /> is available for the {{productName}}"
+      },
+      "latest-releases": {
+        "heading": "Latest releases",
+        "view-release": "View release"
+      },
+      "errors": {
+        "load-release": "There was an issue loading the latest releases."
+      }
+    },
+    "all-releases": {
+      "heading": "All releases",
+      "tabs": {
+        "published": "Published",
+        "archived": "Archived"
+      },
+      "on-boarding": {
+        "heading": "Section/page title or message for onboarding",
+        "description": "Subtitle text or message describing the purpose of the application"
+      }
+    },
+    "draft-releases": {
+      "heading": "Draft releases",
+      "on-boarding": {
+        "heading": "Section/page title or message for onboarding",
+        "description": "Subtitle text or message describing the purpose of the application"
+      }
+    },
+    "previous-releases": {
+      "heading": "Previous releases"
+    },
+    "new-release": {
+      "heading": "New Release",
+      "back-to-draft": "Draft releases",
+      "form": {
+        "heading": "Create new release",
+        "description": "Create a new release by giving it a name and version.",
+        "buttons": {
+          "cancel": "Cancel",
+          "create": "Create release"
+        },
+        "release-name": {
+          "label": "Release name",
+          "placeholder": "Enter name of release",
+          "errors": {
+            "required": "The release name is required"
+          }
+        },
+        "release-version": {
+          "label": "Release version",
+          "placeholder": "Enter version number",
+          "errors": {
+            "required": "The release version is required",
+            "format": "Invalid release format"
+          }
+        },
+        "errors": {
+          "create-single": "There was an error creating the release",
+          "create-plural": "There were errors creating the release"
+        }
+      }
+    },
+    "edit-release-name": {
+      "title": "Edit release",
+      "form": {
+        "buttons": {
+          "cancel": "Cancel",
+          "save": "Save"
+        },
+        "release-name": {
+          "label": "Release name",
+          "placeholder": "Enter name of release"
+        },
+        "release-version": {
+          "label": "Release version",
+          "placeholder": "Enter version number"
+        },
+        "errors": {
+          "create-single": "There was an error updating the release",
+          "create-plural": "There were errors updating the release"
+        }
+      }
+    },
+    "edit-release": {
+      "back-to": "Draft releases",
+      "unsaved-changes": "Unsaved changes",
+      "actions": {
+        "discard": "Discard",
+        "save": "Save",
+        "review-and-publish": "Review and publish"
+      },
+      "save-changes-prompt": {
+        "title": "You have unsaved changes",
+        "message": "Are you sure you want to lose your changes?",
+        "warning1": "Your unsaved changes will be lost if you leave this page or tab.",
+        "warning2": "You can save you changes, discard your changes, or cancel to continue editing.",
+        "cancel": "Cancel",
+        "save": "Save changes",
+        "discard": "Discard changes"
+      },
+      "detail": {
+        "state": "Draft",
+        "created": "Created <0/>",
+        "updated": "Updated <0/>"
+      },
+      "tabs": {
+        "release-information": "Release information",
+        "files": "Files",
+        "validate-upload": "Validate upload",
+        "regional-distribution": "Regional distribution"
+      },
+      "release-information": {
+        "title": "Release information",
+        "description": "Add information that will be displayed to customers about the description of the release and any new features or changes included. Also, add and remove additional languages and localised content that will be required for this release.",
+        "form": {
+          "language-selector": {
+            "localized": "Localised",
+            "not-localized": "Not localised"
+          },
+          "description": {
+            "label": "Description",
+            "placeholder": "What is included in the new release?",
+            "errors": {
+              "required": "The release information description is required"
+            }
+          },
+          "whats-new": {
+            "label": "What's new?",
+            "placeholder": "What are the new features in the release?"
+          },
+          "errors": {
+            "create-single": "There was an error updating the release information",
+            "create-plural": "There were errors updating the release information"
+          }
+        }
+      },
+      "files": {
+        "title": "Files",
+        "description": "Select and add files to be included in this release.",
+        "drag-n-drop": "Drag and drop files",
+        "add-files": "Add files",
+        "select-from-computer": "<0/> from your computer",
+        "select-from-computer-link": "Select a file",
+        "file-list": {
+          "name": "File name",
+          "size": "File size",
+          "type": "File type",
+          "languages": "File languages",
+          "select-languages": "Select language(s)"
+        },
+        "file-type": {
+          "placeholder": "File type",
+          "firmware": "Firmware",
+          "document": "Document"
+        },
+        "errors": {
+          "plural": "There were errors when saving the files",
+          "singular": "There was an error saving the files",
+          "file-exists": "The file, \"{{fileName}}\", already exists for the release",
+          "file-too-big": "The file, \"{{fileName}}\", is larger than than {{maxFileSizeMB}}MB",
+          "file-name-too-long": "The file, \"{{fileName}}\", has a name of more than ${maxFileNameLength} characters",
+          "file-extension-invalid": "The file, \"{{fileName}}\", does not have a valid extension"
+        }
+      },
+      "validate-upload": {
+        "title": "Validate the firmware file",
+        "description": "The firmware file needs to be validated before it can be distributed to customers.",
+        "download-file": "1. Download firmware file",
+        "download-file-description": "Download the executable file that has been uploaded",
+        "download": "Download",
+        "run-checksum": "2. Run checksum",
+        "run-checksum-description": "Did the file pass the checksum validation?",
+        "yes": "Yes",
+        "no": "No",
+        "validation-passed": "Checksum validation passed",
+        "validation-passed-description": "The uploaded file has been validated for distribution.",
+        "validation-failed": "Checksum validation failed",
+        "validation-failed-description": "Re-upload the file and try again",
+        "validation-failed-retry": "Retry",
+        "no-firmware": "Unable to assign a file",
+        "no-firmware-description": "In order to run checksum validation, you must first upload a file and mark it as \"firmware\".",
+        "no-firmware-goto-files": "Go to files tab"
+      },
+      "regional-distribution": {
+        "title": "Regional distribution",
+        "description": "Select the countries where this firmware will be distributed.",
+        "region-selector": {
+          "select-all": "Select all"
+        }
+      }
+    },
+    "publish-release": {
+      "publishing": "Publishing...",
+      "description-1": "The release is being published to the package service.",
+      "description-2": "Depending on the size and number of release files, this may take several minutes."
+    },
+    "release-detail": {
+      "back-to-previous": "Previous releases",
+      "back-to-all-releases": "All releases",
+      "archive-modal": {
+        "message-plural": "You are about to archive the following releases:",
+        "message-singular": "Are you sure you want to archive <0 />?",
+        "message-singular-release": "release {{name}} {{version}}",
+        "messages": {
+          "success": "The release, {{name}} {{version}} was archived.",
+          "error": "Unable to archive release, {{name}} {{version}}"
+        },
+        "actions": {
+          "cancel": "Cancel",
+          "archive": "Archive"
+        }
+      },
+      "delete-modal": {
+        "message-plural": "You are about to delete the following releases:",
+        "message-singular": "Are you sure you want to delete <0 />?",
+        "message-singular-release": "release {{name}} {{version}}",
+        "message-no-restore": "Deleted draft releases cannot be restored.",
+        "messages": {
+          "success": "The release, {{name}} {{version}} was deleted.",
+          "error": "Unable to delete release, {{name}} {{version}}"
+        },
+        "actions": {
+          "cancel": "Cancel",
+          "delete": "Delete"
+        }
+      },
+      "release-menu": {
+        "selected-message": {
+          "singular": "1 item selected",
+          "plural": "{{length}} items selected"
+        },
+        "actions": {
+          "archive": "Archive",
+          "delete": "Delete",
+          "edit": "Edit"
+        }
+      }
+    },
+    "release-published": {
+      "heading": "Release published",
+      "description-1": "The release has been published and is now available for users to download.",
+      "description-2": "Check the all releases table for details or to edit the release.",
+      "details-link": "Release details",
+      "view-releases": "View all releases"
+    },
+    "review-release": {
+      "back-link": "Back",
+      "edit-release": "Edit release",
+      "publish-release": "Publish release",
+      "draft": "Draft",
+      "created": "Created <0/>",
+      "updated": "Updated <0/>",
+      "reslove-link": "Resolve",
+      "checklist": {
+        "title": "Publish checklist"
+      },
+      "release-summary": {
+        "title": "Release summary"
+      },
+      "errors": {
+        "no-countries": "There have not been any countries selected.",
+        "not-validated": "The firmware upload has not been validated.",
+        "file-type-or-language": "There are files that haven't been assigned a file type or language.",
+        "no-firmware": "The release does not have a file set as firmware.",
+        "multiple-firmware-files": "The release has more than one file set as firmware.",
+        "no-release-information": "The release has no release information set.",
+        "invalid-release-information": "There is release information that hasn't been assigned a description or what's new text."
+      },
+      "regional-distribution": {
+        "title": "Regional distribution",
+        "link": "Manage"
+      },
+      "validate-upload": {
+        "title": "Validate upload"
+      },
+      "files": {
+        "title": "Files",
+        "link": "Manage",
+        "unresolved-message": "There are files that haven't been assigned a file type or language",
+        "resolve": "Resolve",
+        "headers": {
+          "name": "File name",
+          "size": "File size",
+          "type": "File type",
+          "languages": "Language(s)"
+        }
+      },
+      "release-information": {
+        "title": "Release information",
+        "link": "Edit",
+        "description": "Description",
+        "whats-new": "What's new?"
+      },
+      "localization": {
+        "title": "Localisation",
+        "message": "Localised in these language(s):",
+        "link": "Manage"
+      }
+    },
+    "download-log": {
+      "heading": "Download log",
+      "export": "Export .csv",
+      "empty-list": {
+        "message-1": "No firmware downloads",
+        "message-2": "Try changing the filters or search term, or download a release"
+      },
+      "filters": {
+        "heading": "Filters",
+        "products": "Products",
+        "all-products": "All products",
+        "clear": "Clear filters"
+      },
+      "table-headers": {
+        "product": "Product",
+        "release-name": "Release name",
+        "version": "Version",
+        "file-size": "File size",
+        "last-downloaded": "Last downloaded"
+      }
+    },
+    "reports": {
+      "heading": "Reports",
+      "sub-heading": "Generate a report of software downloads",
+      "description": "Create and export a report of who has downloaded our software.",
+      "form": {
+        "buttons": {
+          "export": "Export report"
+        },
+        "api-errors": {
+          "singular": "There was an error generating the report",
+          "plural": "There were errors generating the report"
+        },      
+        "product": {
+          "label": "Product"
+        },
+        "releases": {
+          "label": "Release version",
+          "placeholder": "Select release version",
+          "select-all": "All release versions"
+        },
+        "countries": {
+          "label": "Country",
+          "placeholder": "Select country",
+          "select-all": "All countries"
+        },
+        "download-date": {
+          "label": "Download date",
+          "this-week": "This week",
+          "last-week": "Last week",
+          "date-range": "Date range",
+          "date-from": "Start date",
+          "date-to": "End date"
+        }
+      },
+      "validation": {
+        "product-required": "The product is required",
+        "release-required": "At least one release version is required",
+        "country-required": "At least one country is required",
+        "download-date-required": "The download date is required",
+        "start-date-required": "The start date is required",
+        "end-date-required": "The end date is required"
+      },
+      "csv-headings": {
+        "country-code": "Country code",
+        "download-date": "Download date",
+        "user-name": "User name",
+        "email": "Email",
+        "file-name": "File name",
+        "file-size": "File size",
+        "product": "Product",
+        "release": "Release",
+        "version": "Version"
+      }
+    }
+  }
+}

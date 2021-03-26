@@ -1,0 +1,44 @@
+DONE: The draft count does not change after publish - either update the count or refresh the products
+DONE: The draft count does not change after delete - either update the count or refresh the products
+DONE: The draft count does not change after creating a new draft - either update the count or refresh the products
+DONE: Remove the 404 page from the sidebar
+DONE: If access is denied, forbidden - redirect to the 401/403 page
+DONE: If a page does not exist, redirect to the 404 page
+DONE: i18n
+DONE: Add the save changes warning to the form tabs
+DONE: Disable the firmware option if selected for another file
+DONE: Move the publish progress to the published page (why isn't is it redircting after publish)
+PHASE2: Need some sort of text formatting for description, what's new - test line breaks
+DONE: Fix the release name edit and version modal - after save the modal opens with the original data
+DONE: Put the correct validation for version - needs to match package service
+DONE: Sort the language drop down for the release information
+DONE: Get the languages from the API
+DONE: In drafts, last updated doesn't change until refresh after an edit. - the put does not return the update release object.
+DONE: Fix the release list menu buttons
+*** FPDS: Fix the issue with setting focus to the search button after displaying the filters
+*** FPDS: Setting dropdown item to disabled looks good but doesn't disable
+DONE: Make sure the file size comes back for previous releases
+DONE: Implement or remove the ... menu on the edit draft page
+DONE: Make sure the language combo is populated from the api on the edit files tab
+DONE: Download documents from the CDN as we do for firmware
+DONE: Make sure the bug where you can't change the version of a release to a lower number, even when there are no releases with a lower number, is fixed
+DONE: Make sure that updates return the release properly
+DONE: Restrict filenames to 50 characters
+DONE: Restrict pages for users and administrators
+DONE: Remove unused code that was in the project from the begining
+DONE: The Archived menu is blank it should be hidden (At some point they want to re-publish)
+DONE: Draft release details says "Release Date" should say "Last updated"
+DONE: Make sure all components are functional
+DONE: Add the default language to the localisation list on the review page
+DONE: Remove language selection for firmware
+DONE: Split the release list into seperate files
+DONE: Set the correct favicon.ico
+DONE: If they are trying to access an admin page and they aren't admin we should show an unauthorized error and not a 404
+*** Retrieve the file extension types from APIs
+PHASE2: Add more granular permissions Publisher Editor roles, can publish can edit
+API: Can still add duplicate releases
+API: There is still an issue with downloading release documents from the CDN
+DONE: Rename infos to info for the API calls
+*** Remove the Oops... text for login issues
+DONE: Fix the issue with redux not being able to serialise dates (release.modifiedOn)
+*** Need a modal for the "lose changes?" confirm on the release information page

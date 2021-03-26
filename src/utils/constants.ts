@@ -1,0 +1,1 @@
+export const DEFAULT_CULTURE_CODE = "en-NZ";
